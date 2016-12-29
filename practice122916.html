@@ -1,0 +1,21 @@
+<html>
+<h1 id="heading1">Eden Jung</h1>
+<h2>Interior</h2>
+<h3>Project Management</h3>
+<button type="button" onclick= "imagehider()" >Click Me!</button>
+<button type="button" onclick= "colorchanger()" >Change!</button>
+<img src="http://www.vginteriordesign.com/images/com.full.1.jpg" id="com_1">
+</html>
+
+
+<script>
+var com_1= $('#com_1') 
+imagehider= function() {
+    com_1.hide();              
+}
+var heading1= $('#heading1')
+console.log(heading1)
+colorchanger= function() {
+    heading1.css('color','blue');
+}
+</script>
